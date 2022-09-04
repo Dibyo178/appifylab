@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appifylab</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <!-- header starts -->
+    <main>
+      <div class="header">
+        <div class="header__left">
+          <img src="./img/logo.png" alt="" />
+          <div class="header__input">
+            <span class="material-icons"> search </span>
+            <input type="text" placeholder="Search Facebook" />
+          </div>
+        </div>
+
+        <div class="header__right">
+          <span class="material-icons active option"> home </span>
+
+          <span class="material-icons"> other_houses </span>
+
+          <span class="material-icons"> groups</span>
+
+          <span class="material-icons"> notifications </span>
+
+          <span class="material-icons"> sms</span>
+
+          <div class="header__info">
+            <span
+              class="material-icons user__avatar"
+              style="color: rgb(197, 197, 197)"
+            >
+              account_circle
+            </span>
+          
+            <h4 style="margin-left: -30px; color: rgb(255, 245, 245)">
+              Sourov Purkayastha
+            </h4>
+          </div>
+          <span class="material-icons"> expand_more </span>
+        </div>
+      </div>
+    </main>
+    <!-- header ends -->
+
+    <!-- main body starts -->
+    <div class="main__body">
+      <!-- sidebar starts -->
+      <div class="sidebar">
+        <div class="explore">
+          <h3>Explore</h3>
+
+          <div class="sidebarRow">
+            <span class="material-icons"> save </span>
+            <h4>Save Posts</h4>
+          </div>
+
+          <div class="sidebarRow">
+            <span class="material-icons"> person </span>
+            <h4>People</h4>
+          </div>
+
+          <div class="sidebarRow">
+            <span class="material-icons"> people </span>
+            <h4>Groups</h4>
+          </div>
+
+          <div class="sidebarRow">
+            <span class="material-icons"> web </span>
+            <h4>Pages</h4>
+          </div>
+
+          <div class="sidebarRow">
+            <span class="material-icons"> theater_comedy </span>
+            <h4>Event</h4>
+          </div>
+        </div>
+
+        <div class="apps">
+          <h4 style="color: gray">Download App</h4>
+          <div class="m-app">
+            <img src="./img/app (1).png" alt="" />
+            <img src="./img/app (2).png" alt="" />
+          </div>
+        </div>
+        <div class="suggestion">
+          <h4>Suggestion People</h4>
+          <div class="suggest" style="display: flex">
+            <span class="material-icons" style="color: rgb(197, 197, 197)">
+              account_circle
+            </span>
+            <p style="padding: 3px">Sadek Hossain</p>
+            <button
+              style="
+                margin-left: 20px;
+                border: none;
+                background: #fff;
+                color: gray;
+              "
+            >
+              Add +
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- sidebar ends -->
+
+      <!-- feed starts -->
+      <div class="feed">
+        <div class="storyReel">
+          <!-- story starts -->
+          <div
+            style="background-image: url('./img/SAVE_20220327_175507-01.jpeg')"
+            class="story"
+          >
+            <img
+              class="user__avatar story__avatar"
+              src="./img/Slice 5.png"
+              alt=""
+            />
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: gray;
+                margin-top: 60px;
+
+                height: 73px;
+                border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+              "
+            >
+              <span
+                style="margin-bottom: 20px; color: blue"
+                class="material-icons"
+              >
+                add_circle
+              </span>
+              <h4>Your Story</h4>
+            </div>
+          </div>
+          <!-- story ends -->
+
+          <!-- story starts -->
+          <div style="background-image: url('./img/web.jpg')" class="story">
+            <img
+              class="user__avatar story__avatar"
+              src="./img/Slice 5.png"
+              alt=""
+            />
+            <h4 style="color:rgb(66, 66, 66)">Adnan</h4>
+          </div>
+          <!-- story ends -->
+        </div>
+
+        <!-- message sender starts -->
+        <div class="messageSender">
+          <div class="messageSender__top">
+            <img
+              class="user__avatar"
+              src="./img/Slice 5.png"
+              alt=""
+            />
+            <form>
+              <input
+                class="messageSender__input"
+                placeholder="Create a new post"
+                type="text"
+              />
+            </form>
+          </div>
+
+          <div class="messageSender__bottom">
+            <div class="messageSender__option">
+              
+              <span style="color: gray" class="material-icons">
+                contrast
+                </span>
+              <h3>Backgroumd</h3>
+            </div>
+
+            <div class="messageSender__option">
+              <span style="color: green" class="material-icons">
+                photo_library
+              </span>
+              <h3>Photo/Video</h3>
+            </div>
+
+            <div class="messageSender__option">
+              <span style="color: orange" class="material-icons">
+                insert_emoticon
+              </span>
+              <h3>Feeling</h3>
+            </div>
+          </div>
+        </div>
+        <!-- message sender ends -->
+
+        <!-- post starts -->
+        <div class="post">
+          <div class="post__top">
+            <img
+              class="user__avatar post__avatar"
+              src="./img/Slice 5.png"
+              alt=""
+            />
+            <div class="post__topInfo">
+              <h3>Sourov Purkayastha</h3>
+              <p>2 spetember at 20:30</p>
+            </div>
+          </div>
+
+          <div class="post__bottom">
+            <p>My New car  </p>
+          </div>
+
+          <div class="post__image">
+            <img
+              src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+              alt=""
+            />
+          </div>
+
+          <div class="post__options">
+            <div class="post__option">
+              <span style="color:red" class="material-icons">
+                favorite
+                </span>
+              <p>Like</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> chat_bubble_outline </span>
+              <p>Comment</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> near_me </span>
+              <p>Share</p>
+            </div>
+          </div>
+        </div>
+        <!-- post ends -->
+
+        <!-- post starts -->
+        <div class="post">
+          <div class="post__top">
+            <img
+              class="user__avatar post__avatar"
+              src="./img/images.jpg"
+              alt=""
+            />
+            <div class="post__topInfo">
+              <h3>Sourov Purkayastha</h3>
+              <p>3 september at 20:30</p>
+            </div>
+          </div>
+
+          <div class="post__bottom">
+            <p>Post Without Image</p>
+          </div>
+
+          <div class="post__options">
+            <div class="post__option">
+              <span class="material-icons"> thumb_up </span>
+              <p>Like</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> chat_bubble_outline </span>
+              <p>Comment</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> near_me </span>
+              <p>Share</p>
+            </div>
+          </div>
+        </div>
+        <!-- post ends -->
+
+        <!-- post starts -->
+        <div class="post">
+          <div class="post__top">
+            <img
+              class="user__avatar post__avatar"
+              src="./img/Slice 5.png"
+              alt=""
+            />
+            <div class="post__topInfo">
+              <h3>Sourov Purkayastha</h3>
+              <p>4 September at 20:30</p>
+            </div>
+          </div>
+
+          <div class="post__bottom">
+            <p>SuperMan</p>
+          </div>
+
+          <div class="post__image">
+            <img src="https://wallpapercave.com/wp/wp7357832.jpg" alt="" />
+          </div>
+
+          <div class="post__options">
+            <div class="post__option">
+              <span class="material-icons"> thumb_up </span>
+              <p>Like</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> chat_bubble_outline </span>
+              <p>Comment</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> near_me </span>
+              <p>Share</p>
+            </div>
+          </div>
+        </div>
+        <!-- post ends -->
+      </div>
+      <!-- feed ends -->
+
+      <!-- part of right -->
+
+      <div style="flex: 0.33;padding:20px" class="widgets">
+        <h4 style="text-align: center">You might like</h4>
+      <div style="display:flex;justify-content:space-evenly;
+      align-items:center;
+      margin-right:50px;
+      
+      ">
+   
+
+      <img src="./img/images.jpg" style="width:50px;
+      border-radius:50%;
+      height:50px" alt="">
+      <p>spda</p>
+     
+      
+      </div>
+      <div class="button" style="padding:10px">
+        <button style="background:#fff;
+        width:80px;
+        border:1px solid gray;
+        padding:10px">Ignore</button>
+      <button style="background:red;
+      width:90px;border:none;
+      padding:10px;
+      
+      color:#fff">Follow</button>
+      </div>
+
+      <div style="margin-top:30px;
+      padding: 10px; background-color: #fff">
+        <h4 style="text-align: center">Your Friends</h4>
+        <div style="display:flex;justify-content:space-evenly;
+        align-items:center;
+        margin-right:50px;
+        
+        ">
+          
+            <div class="right_input ">
+              <span style="color:gray" class="material-icons"> search </span>
+              <input  type="text" placeholder="Search " />
+            </div>
+        
+       
+       
+         
+  
+          </div>
+        <div  style="padding:10px;display:flex;align-items:center">
+          
+          <img src="./img/Slice 5.png" style="width:50px;
+          border-radius:50%;
+          height:50px" ><p>Adnan</p>
+      
+        </div>
+      </div>
+    </div>
+    <!-- main body ends -->
+
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0"
+      nonce="zUxEq08J"
+    ></script>
+  </body>
+</html>
